@@ -1,0 +1,7 @@
+curl -X POST -H "Content-Type: application/json" \
+-d '{"usuario_id": "2", "grupo": "moderador", "mensagem": "mensagem 1"}' \
+http://localhost:5002/enviar_mensagem
+
+curl -X POST -H "Content-Type: application/json" \
+-d '{"usuario_id": "3", "grupo": "moderador", "mensagem": "mensagem 2"}' \
+http://localhost:5002/enviar_mensagem

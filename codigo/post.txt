@@ -1,0 +1,3 @@
+curl -X POST http://localhost:5002/enviar_mensagem \
+     -H 'Content-Type: application/json' \
+     -d '{"usuario_id":"1","grupo":"admin","mensagem":"OK"}'
